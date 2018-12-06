@@ -36,27 +36,50 @@ export default {
   display: flex;
 }
 
-    .tab {
+.tab {
         width: 220px;
         padding-top: 120px;
         padding-bottom: 160px;
         margin-right: 60px;
     }
-    a {
+a {
         margin-bottom: 10px;
         text-decoration: none;
     }
-    .tabs {
+.tabs {
         text-align: right;
         width: 100%;
      
     }
-    #name{
+#name{
         margin-bottom: 60px;
         height: 1.4px;
         font-size: 28px;
         font: Avenir;
         font-weight: 500;
         text-align: right;
+}
+    .concept{
+        padding: 40px;
+        padding-top: 20px;
+        margin-bottom: 40px;
+        background-color: rgb(238, 238, 238);
+        text-align: left;
+    }
+    #concept{
+        margin-bottom: 30px;
+        font-size: 24px;
+        font: Avenir;
+        font-weight: 500;
+    }
+    .content{
+        height: 100%;
+        min-height: 500px;
+        background-color: rgb(247, 214, 219);
+
+
+    }
+    .content p {
+        text-align: left;
     }
 </style>

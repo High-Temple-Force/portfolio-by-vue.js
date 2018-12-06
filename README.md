@@ -49,3 +49,10 @@ data: {
 ここでもまた、オブジェクト構文はしばしばオブジェクトを返す算出プロパティと併せて使用されます。
 
 [Via](https://jp.vuejs.org/v2/guide/class-and-style.html)
+
+
+### アイデア
+- 三方向
+- 言語の画像
+- font awesome
+- 言語レベルの表示、グラフみたいな

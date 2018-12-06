@@ -14,19 +14,6 @@
         flex:1;
         height: 100%;
     }
-    .concept{
-        padding: 40px;
-        padding-top: 20px;
-        margin-bottom: 40px;
-        background-color: rgb(238, 238, 238);
-        text-align: left;
-    }
-    #concept{
-        margin-bottom: 30px;
-        font-size: 24px;
-        font: Avenir;
-        font-weight: 500;
-    }
     .contents {
         margin-bottom: 40px;
         height: 500px;
