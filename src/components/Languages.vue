@@ -60,6 +60,7 @@
         margin-bottom: 40px;
         height: 100%;
         background-color: rgb(247, 214, 219);
+        min-height: 500px;
     }
     .contents p {
         padding: 40px;

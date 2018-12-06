@@ -51,8 +51,11 @@ data: {
 [Via](https://jp.vuejs.org/v2/guide/class-and-style.html)
 
 
-### アイデア
-- 三方向
+### タスクでのアイデア
+- 三方向からの動き
 - 言語の画像
 - font awesome
+  - https://fontawesome.com/how-to-use/on-the-web/using-with/vuejs
 - 言語レベルの表示、グラフみたいな
+- Vue.jsのテストとは
+- ファビコン
