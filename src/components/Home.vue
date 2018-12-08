@@ -17,7 +17,6 @@
     .contents {
         margin-bottom: 40px;
         height: 500px;
-        background-color: rgb(247, 214, 219);
     }
     .contents p {
         padding: 40px;

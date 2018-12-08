@@ -38,7 +38,7 @@ export default {
 
 .tab {
         width: 220px;
-        padding-top: 120px;
+        padding-top: 150px;
         padding-bottom: 160px;
         margin-right: 60px;
     }
@@ -71,13 +71,6 @@ a {
         font-size: 24px;
         font: Avenir;
         font-weight: 500;
-    }
-    .content{
-        height: 100%;
-        min-height: 500px;
-        background-color: rgb(247, 214, 219);
-
-
     }
     .content p {
         text-align: left;
