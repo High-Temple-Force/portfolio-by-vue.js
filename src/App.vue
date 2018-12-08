@@ -35,7 +35,6 @@ export default {
   padding-top: 50px;
   display: flex;
 }
-
 .tab {
         width: 220px;
         padding-top: 150px;
@@ -45,6 +44,9 @@ export default {
 a {
         margin-bottom: 10px;
         text-decoration: none;
+    }
+a:visited {
+            color: #2c3e50;
     }
 .tabs {
         text-align: right;

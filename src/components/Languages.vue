@@ -4,10 +4,8 @@
             <p id="concept">Languages</p>
         </div>
         <div class="contents">
-            <div class="languages">
-                <box v-bind:key='language.name' v-for='language in languages' v-bind:item='language'>
+                <box :key='language.name' v-for='language in languages' :item='language'>
                 </box>
-            </div>
         </div>
     </div>
 </template>
