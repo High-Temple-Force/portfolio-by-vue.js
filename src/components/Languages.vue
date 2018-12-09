@@ -3,6 +3,7 @@
         <div class="concept">
             <p id="concept">Languages</p>
         </div>
+
         <div class="contents">
                 <box :key='language.name' v-for='language in languages' :item='language'>
                 </box>
@@ -12,7 +13,7 @@
 
 
 <script>
-    import box from "./box"
+    import box from './box'
 
     export default {
         components: {
@@ -65,4 +66,5 @@
     .contents p {
         padding: 40px;
     }
+    
 </style>

@@ -3,14 +3,17 @@
     <div>
       <div class="tab">
         <p id="name">MRHYT</p>
-        <div class="tabs">
-            <router-link to="/home">Home</router-link><br>
-            <router-link to="/about">About</router-link><br>
-            <router-link to="/languages">Languages</router-link><br>
-            <router-link to="/frameworks">Frameworks</router-link><br>
-            <router-link to="/works">Works</router-link><br>
-            <router-link to="/contact">Contact</router-link><br>
-        </div>
+        <transition name='page-fade' mode='out-in'>
+            <div class="tabs">
+                <router-link to="/home">Home</router-link><br>
+                <router-link to="/about">About</router-link><br>
+                <router-link to="/languages">Languages</router-link><br>
+                <router-link to="/frameworks">Frameworks</router-link><br>
+                <router-link to="/works">Works</router-link><br>
+                <router-link to="/contact">Contact</router-link><br>
+            </div>
+        </transition>
+
       </div>
   </div>
     <router-view/>
@@ -76,5 +79,13 @@ a:visited {
     }
     .content p {
         text-align: left;
+    }
+    .page-fade-enter-active,
+    .page-fade-leave-active {
+	   transition: opacity 0.3s ease;
+    }
+    .page-fade-enter,
+    .page-fade-leave-to {
+	    opacity: 0;
     }
 </style>

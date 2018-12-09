@@ -21,23 +21,23 @@ export default {
             frameworks: [
                 {
                     name: 'GCP',
-                    content: 'GCE, GAE, Datastore, Loadbalancerを使用したことがあります。'
+                    content: 'GCE, GAE, Datastore, Loadbalancerを使用しました。'
                 },
                 {
                     name: 'Heroku',
-                    content: 'LINE BOTの運用に、'
+                    content: 'LINE BOTの運用のため使用しました。'
                 },
                 {
                     name: 'MySQL /PostgresSQL',
-                    content: '2つのポートフォリオサイトを作成時に、双方のDBを使用しました。'
+                    content: 'ポートフォリオサイト作成時とLINE BOT作成時に、双方のDBを使用しました。'
                 },
                 {
                     name: 'Node.js',
-                    content: 'LINE BOT作成時に。'
+                    content: 'LINE BOT作成時に使用しました。'
                 },
                 {
                     name: 'Vue.js',
-                    content: '個人用に。'
+                    content: 'このサイトを作成するため使用しました。'
                 },
                 {
                     name: 'Github',
