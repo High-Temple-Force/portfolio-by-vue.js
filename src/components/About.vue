@@ -44,7 +44,6 @@
     }
     .content {
         margin-bottom: 40px;
-        background-color: rgb(247, 214, 219);
         height: 100%;
     }
     .contents p {
@@ -54,7 +53,6 @@
         text-align: left;
     }
     .tbody {
-	@include box-shadow;
 	width: 800px;
 	border-radius: 50px;
 	margin: 20px auto;

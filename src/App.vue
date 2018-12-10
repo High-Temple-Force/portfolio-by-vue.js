@@ -3,14 +3,17 @@
     <div>
       <div class="tab">
         <p id="name">MRHYT</p>
-        <div class="tabs">
-            <router-link to="/home">Home</router-link><br>
-            <router-link to="/about">About</router-link><br>
-            <router-link to="/languages">Languages</router-link><br>
-            <router-link to="/frameworks">Frameworks</router-link><br>
-            <router-link to="/works">Works</router-link><br>
-            <router-link to="/contact">Contact</router-link><br>
-        </div>
+        <transition name='page-fade' mode='out-in'>
+            <div class="tabs">
+                <router-link to="/home">Home</router-link><br>
+                <router-link to="/about">About</router-link><br>
+                <router-link to="/languages">Languages</router-link><br>
+                <router-link to="/frameworks">Frameworks</router-link><br>
+                <router-link to="/works">Works</router-link><br>
+                <router-link to="/contact">Contact</router-link><br>
+            </div>
+        </transition>
+
       </div>
   </div>
     <router-view/>
@@ -35,16 +38,18 @@ export default {
   padding-top: 50px;
   display: flex;
 }
-
 .tab {
         width: 220px;
-        padding-top: 120px;
+        padding-top: 150px;
         padding-bottom: 160px;
         margin-right: 60px;
     }
 a {
         margin-bottom: 10px;
         text-decoration: none;
+    }
+a:visited {
+            color: #2c3e50;
     }
 .tabs {
         text-align: right;
@@ -72,14 +77,15 @@ a {
         font: Avenir;
         font-weight: 500;
     }
-    .content{
-        height: 100%;
-        min-height: 500px;
-        background-color: rgb(247, 214, 219);
-
-
-    }
     .content p {
         text-align: left;
+    }
+    .page-fade-enter-active,
+    .page-fade-leave-active {
+	   transition: opacity 0.3s ease;
+    }
+    .page-fade-enter,
+    .page-fade-leave-to {
+	    opacity: 0;
     }
 </style>
