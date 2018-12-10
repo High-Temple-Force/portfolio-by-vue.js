@@ -47,10 +47,14 @@ export default {
 a {
         margin-bottom: 10px;
         text-decoration: none;
+        color: #2c3e50;
     }
 a:visited {
-            color: #2c3e50;
+        color: #2c3e50;
     }
+a:hover {
+        text-decoration: #2c3e50;
+}
 .tabs {
         text-align: right;
         width: 100%;
