@@ -13,7 +13,7 @@
 
 
 <script>
-    import box from './box'
+    import box from './Box'
 
     export default {
         components: {

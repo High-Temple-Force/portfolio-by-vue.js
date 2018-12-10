@@ -4,7 +4,7 @@
             <p id="concept">Works</p> 
         </div>
         <div class="contents">
-            <p>This site is a portfolio of MRHYT.</p>
+            <p>Building now</p>
         </div>
     </div>
 </template>
