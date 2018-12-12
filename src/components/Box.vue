@@ -1,11 +1,12 @@
 <template>
-<transition appear>
 
   <div class='box'>
         <h2>{{item.name}}</h2>
+        <span style="font-size: 30px;">
+            <i v-bind:class='item.fabicon' size="5x"></i>       
+        </span> 
         <p>{{item.content}}</p>
   </div>
-</transition>
 
 </template>
 
@@ -36,12 +37,5 @@ export default {
     h2 {
         font-weight: 400;
     }
-
-.v-enter-active, .v-leave-active {
-  transition: opacity .10s;
-}
-
-.v-enter, .v-leave-to {
-  opacity: 0;
-}
+    
 </style>
