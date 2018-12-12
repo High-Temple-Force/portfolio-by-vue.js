@@ -3,7 +3,7 @@
   <div class='box'>
         <h2>{{item.name}}</h2>
         <span style="font-size: 30px;">
-            <i v-bind:class='item.fabicon' size="5x"></i>       
+            <i :class='item.fabicon' size="5x"></i>       
         </span> 
         <p>{{item.content}}</p>
   </div>
