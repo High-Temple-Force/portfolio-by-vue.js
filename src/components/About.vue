@@ -46,27 +46,25 @@
         margin-bottom: 40px;
         height: 100%;
     }
-    .contents p {
-        padding: 40px;
-    }
     tr {
         text-align: left;
     }
     .tbody {
-	width: 800px;
-	border-radius: 50px;
-	margin: 20px auto;
+        width: 100%;
+        border-radius: 50px;
+        margin: 20px auto;
 
     }
     table {
-    padding: 50px 0;
-    padding-left: 40px;
-    align-self: left; 
+        padding: 50px ;
+        padding-left: 40px;
+        align-self: left; 
+        width: 100%;
     }
     th {
-    padding-right: 20px;
-    font-weight: normal;
-    text-align: left;
+        padding-right: 20px;
+        font-weight: normal;
+        text-align: center;
     }
     td {
     font-size: 20px;

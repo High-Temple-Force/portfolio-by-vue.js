@@ -69,9 +69,5 @@
         height: 100%;
         min-height: 500px;
     }
-    .contents p {
-        padding: 40px;
-        padding-top: 0px; 
-    }
     
 </style>

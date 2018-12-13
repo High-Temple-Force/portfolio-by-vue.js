@@ -21,26 +21,32 @@ export default {
             frameworks: [
                 {
                     name: 'GCP',
+                    fabicon: 'fab fa-google',
                     content: 'GCE, GAE, Datastore, Loadbalancerを使用しました。'
                 },
                 {
                     name: 'Heroku',
+                    fabicon: 'fab fa-hire-a-helper',
                     content: 'LINE BOTの運用のため使用しました。'
                 },
                 {
                     name: 'MySQL /PostgresSQL',
+                    fabicon: 'fas fa-database',
                     content: 'ポートフォリオサイト作成時とLINE BOT作成時に、双方のDBを使用しました。'
                 },
                 {
                     name: 'Node.js',
+                    fabicon: 'fab fa-node-js',
                     content: 'LINE BOT作成時に使用しました。'
                 },
                 {
                     name: 'Vue.js',
+                    fabicon: 'fab fa-vuejs',
                     content: 'このサイトを作成するため使用しました。'
                 },
                 {
                     name: 'Github',
+                    fabicon: 'fab fa-github',
                     content: '開発用に。複数人での開発経験もあります。'
                 }
             ]
@@ -58,8 +64,5 @@ export default {
     .contents {
         margin-bottom: 40px;
         height: 780px;
-    }
-    .contents p {
-        padding: 40px;
     }
 </style>

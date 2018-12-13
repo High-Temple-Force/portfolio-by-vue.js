@@ -1,5 +1,5 @@
 <template>
-    <div class="mainview">
+    <div class="mainview" v->
         <div class="concept">
             <p id="concept">Home</p> 
         </div>
@@ -17,9 +17,5 @@
     .contents {
         margin-bottom: 40px;
         height: 500px;
-    }
-    .contents p {
-        padding: 40px;
-        text-align: left;
     }
 </style>

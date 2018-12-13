@@ -92,4 +92,9 @@ a:hover {
     .page-fade-leave-to {
 	    opacity: 0;
     }
+
+    .contents p {
+        padding: 40px;
+        padding-top: 10px;
+    }
 </style>

@@ -18,7 +18,4 @@
         margin-bottom: 40px;
         height: 780px;
     }
-    .contents p {
-        padding: 40px;
-    }
 </style>

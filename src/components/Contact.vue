@@ -3,8 +3,12 @@
         <div class="concept">
             <p id="concept">Contact</p>
         </div>
-        <div class="contents">
-            <p>こちらまで. dd11blues[at]gmail.com</p>
+        <div class="contents">  
+            <a href="mailto:1d1dreds@gmail.com">
+                <span style="font-size: 100px;">
+                    <i class="fas fa-envelope"></i>
+                </span>
+            </a>
         </div>
     </div>
 </template>
@@ -18,7 +22,9 @@
         margin-bottom: 40px;
         height: 500px;
     }
-    .contents p {
-        padding: 40px;
+    .fa-envelope {
+        margin-top: 70px;
     }
+    
+ 
 </style>
