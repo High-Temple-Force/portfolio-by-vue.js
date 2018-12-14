@@ -5,7 +5,7 @@
         </div>
         <div class="contents">
             <div class="singlebox">
-            <p id="homemes">Welcome to MRHYTO's portfolio! <br>
+            <p id="homemes">Welcome to MRHYT's portfolio! <br>
             <br>Describing about what I have made, used and who I am.</p>
             </div>
         </div>
