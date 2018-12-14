@@ -4,7 +4,10 @@
             <p id="concept">Home</p> 
         </div>
         <div class="contents">
-            <p>Describing about what I have made, used and who I am.</p>
+            <div class="singlebox">
+            <p id="homemes">Welcome to MRHYTO's portfolio! <br>
+            <br>Describing about what I have made, used and who I am.</p>
+            </div>
         </div>
     </div>
 </template>
