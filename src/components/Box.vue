@@ -1,12 +1,19 @@
 <template>
-
+<transition>
   <div class='box'>
         <h2>{{item.name}}</h2>
         <span style="font-size: 30px;">
-            <i v-bind:class='item.fabicon' size="5x"></i>       
+            <i :class='item.fabicon' size="5x"></i>       
         </span> 
         <p>{{item.content}}</p>
+        <span style="font-size: 20px; color: grey;" >
+            <a :href="item.url" v-if="item.url" target="_blank">
+                <i class="fas fa-external-link-alt links"></i>           
+            </a>
+        </span>
   </div>
+
+</transition>
 
 </template>
 
@@ -17,6 +24,7 @@ export default {
   props: ['item'],
   data () {
     return {
+        show: true
     }
   }
 }
@@ -37,5 +45,14 @@ export default {
     h2 {
         font-weight: 400;
     }
-    
+    .links {
+        color: gray;
+    }
+
+    .v-enter-active, .v-leave-active {
+        transition: opacity 1s;
+    }
+    .v-enter, .v-leave-to {
+        opacity: 1s;
+    }
 </style>

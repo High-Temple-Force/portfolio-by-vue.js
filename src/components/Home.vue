@@ -1,10 +1,13 @@
 <template>
-    <div class="mainview">
+    <div class="mainview" v->
         <div class="concept">
             <p id="concept">Home</p> 
         </div>
         <div class="contents">
-            <p>Describing about what I have made, used and who I am.</p>
+            <div class="singlebox">
+            <p id="homemes">Welcome to MRHYTO's portfolio! <br>
+            <br>Describing about what I have made, used and who I am.</p>
+            </div>
         </div>
     </div>
 </template>
@@ -17,9 +20,5 @@
     .contents {
         margin-bottom: 40px;
         height: 500px;
-    }
-    .contents p {
-        padding: 40px;
-        text-align: left;
     }
 </style>
