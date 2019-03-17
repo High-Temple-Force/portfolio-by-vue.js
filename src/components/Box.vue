@@ -1,5 +1,4 @@
 <template>
-<transition>
   <div class='box'>
         <h2>{{item.name}}</h2>
         <span style="font-size: 30px;">
@@ -12,9 +11,6 @@
             </a>
         </span>
   </div>
-
-</transition>
-
 </template>
 
 
@@ -47,12 +43,5 @@ export default {
     }
     .links {
         color: gray;
-    }
-
-    .v-enter-active, .v-leave-active {
-        transition: opacity 1s;
-    }
-    .v-enter, .v-leave-to {
-        opacity: 1s;
     }
 </style>

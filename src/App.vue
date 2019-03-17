@@ -81,14 +81,6 @@ export default {
     .content p {
         text-align: left;
     }
-    .page-fade-enter-active,
-    .page-fade-leave-active {
-	   transition: opacity 0.3s ease;
-    }
-    .page-fade-enter,
-    .page-fade-leave-to {
-	    opacity: 0;
-    }
 
     .contents p {
         padding: 40px;
