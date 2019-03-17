@@ -35,7 +35,7 @@ export default {
                 },
                 {
                     name: '上映中映画通知Bot',
-                    content: '今上映中の映画を、注目順に教えてくれるLINE Botです。Datastore、Cloud Functions、Google Schedulerを使用しております。',
+                    content: '上映中の映画を、20本教えてくれるLINE Botです。Node.js、Datastore、GCFを使用しております。',
                     url: 'https://github.com/High-Temple-Force/linebot_getmovies'
                 }
             ]
