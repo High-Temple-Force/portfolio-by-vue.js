@@ -48,7 +48,17 @@ export default {
                     name: 'Github',
                     fabicon: 'fab fa-github',
                     content: '開発用に。複数人での開発経験もあります。'
-                }
+                },
+                {
+                    name: 'Google Cloud Functions',
+                    fabicon: 'fas fa-cloud',
+                    content: 'LINE Bot作成時に、サーバレス構成を実現するため使用しました。'
+                },
+                {
+                    name: 'Laravel',
+                    fabicon: 'fab fa-laravel',
+                    content: '現在作成中のサイト用に、APIサーバの構築のため使用しました。'
+                },
             ]
         }
     }
