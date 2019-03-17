@@ -32,6 +32,11 @@ export default {
                     name: '絶対忘れないメモ',
                     content: 'メモ用LINE BOTです。Node.jsをHerokuで動かし、二時間おきにプッシュ通知しています。',
                     url: 'https://github.com/High-Temple-Force/linebot_memo2'
+                },
+                {
+                    name: '上映中映画通知Bot',
+                    content: '今上映中の映画を、注目順に教えてくれるLINE Botです。Datastore、Cloud Functions、Google Schedulerを使用しております。',
+                    url: 'https://github.com/High-Temple-Force/linebot_getmovies'
                 }
             ]
         }
